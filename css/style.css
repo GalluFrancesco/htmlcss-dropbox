@@ -83,8 +83,9 @@ nav{
 
 /*----jumbotron */
 .jumbotron{
-    background-color: #0063FF;
+    background-color:#ADD1EA;
     width: 100%;
+    height: 600px;
 }
 
 .contenuto-jumbotron{
@@ -93,8 +94,24 @@ nav{
 
 h1{
     font-size: 65px;
+    margin-bottom: 45px;
+    padding-top: 40px;
 }
 
 .jumbotron-text{
     width: 300px;
+}
+
+.jumbotron-text p{
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.fa-arrow-down{
+    font-size: 30px;
+}
+
+.jumbotron-img > img{
+    margin-top: 5px;
+    width: 700px;
 }
