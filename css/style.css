@@ -115,3 +115,55 @@ h1{
     margin-top: 5px;
     width: 700px;
 }
+
+/* ----jumbotron finito---- */
+
+/* ----main---- */
+
+main{
+    width: 70%;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.checkbox-container{
+    margin: 30px 0;
+}
+
+.side-left{
+    width: calc(33.33333% - 15px);
+    padding-right: 15px;
+}
+
+.side-right{
+    width: calc(33.33333% - 15px);
+    padding-left: 15px;
+}
+
+.centre{
+    width:calc(33.33333% + 30px);
+    padding: 0px 30px;
+}
+
+.bordo{
+    border: lightgray 1px solid;
+}
+
+.contenuto .bordo:first-child{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.card{
+    padding: 45px 30px;
+}
+
+.color-grey{
+    color: gray;
+}
+
+.card p:first-of-type{
+    margin: 15px 0;
+}
