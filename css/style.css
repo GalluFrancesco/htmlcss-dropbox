@@ -124,6 +124,7 @@ main{
     width: 70%;
 }
 
+
 h2{
     font-size: 40px;
 }
@@ -151,19 +152,74 @@ h2{
     border: lightgray 1px solid;
 }
 
-.contenuto .bordo:first-child{
+.card .bordo:first-child{
     text-align: center;
     padding: 10px 0;
 }
 
-.card{
+.contenuto{
     padding: 45px 30px;
+    height: 950px;
 }
 
 .color-grey{
     color: gray;
+    margin-bottom: 45px;
 }
 
-.card p:first-of-type{
+.contenuto p:first-of-type{
     margin: 15px 0;
+}
+
+.dim{
+    width: 85%;
+}
+
+.allineamento-riga{
+    padding-top: 2px;
+    margin-right: 5px;
+}
+
+.card-li-spaziatura{
+    margin: 15px 0px;
+}
+
+.contenuto > ul{
+    margin-bottom: 30px;
+}
+
+.button-card{
+    width: 100%;
+    text-align: center;
+}
+
+.link-card{
+    color: #0063FF;
+}
+
+.button-card + p{
+    margin: 20px 0;
+}
+
+.riga-card{
+    width: 60px;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+hr + span{
+    font-size: 120%;
+    /* margin-bottom: 15px; chiedere perchè non lo prende */
+}
+
+.lista-check{
+    margin-top: 15px;
+}
+
+.check-blu{
+    color: #0063FF;
+}
+
+.lista-check li{
+    margin-bottom: 15px;
 }
