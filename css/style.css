@@ -479,6 +479,37 @@ h3{
 }
 /* ----domande frequenti finito---- */
 
+/* ----footer---- */
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 120px;
+}
+
+.colonna-footer{
+    width: 15%;
+    margin-right: 45px;
+    margin-bottom: 120px;
+}
+
+.colonna-footer > h4{
+    margin-bottom: 30px;
+}
+
+.lista-footer li{
+    margin-bottom: 15px;
+}
+
+.lingua{
+    margin-top: 60px;
+    color: lightgray;
+}
+
+.fa-sort-up{
+    padding-top: 3px;
+}
+
 
 
 
