@@ -474,6 +474,7 @@ hr + span{
 
 .lista-domande p{
     position: absolute;
+    left: 0;
     line-height: 60px;
     font-size: 80%;
     font-weight: bold;
@@ -481,9 +482,9 @@ hr + span{
 
 .fa-chevron-down{
     position: absolute;
-    right: 0px;
+    right: 15px;
     font-size: 80%;
-    line-height: 60px;
+    padding: 27px 0;
 }
 /* ----domande frequenti finito---- */
 
@@ -512,8 +513,9 @@ footer{
 .lingua{
     margin-top: 60px;
     color: lightgray;
+    height: 30px;
 }
 
-.fa-sort-up{
-    padding-top: 3px;
+.lingua > span{
+    line-height: 30px;
 }
